@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Weather Dashboard</title>
+        <link rel="stylesheet" href="styles/navbar.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>WEATHER</h1>
+            <div>
+                <input type="text" id="input" placeholder="Enter a city name...">
+                <button id="search">Search</button>
+                <p id="error-message" class="error-message"></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul>
+                <li class="one"><a href="#" id="home-link">Home</a></li>
+                <li class="two"><a href="#about-section">about</a></li>
+                <li class="three"><a href="#footer-section">footers</a></li>
+            <hr />    
+            </ul>
+        </div>
+        <main>
+            <div class="weather">
+                <h2 id="city">Delhi, IN</h2>
+                <div class="temp-box">
+                    <img src="./weather icon.jpeg" alt="" id="img">
+                    <p id="temperature">26&degC</p>
+                </div>
+                <span id="clouds">Broken Clouds</span>
+            
+        </main>
+
+        <div class="forecstD">
+            <div class="divider2"></div>
+            <p class="cast-header">Next 7 days Forecast</p>
+            <div class="weekF">
+                <div class="classF">
+                    <p class="date">Mon Aug 04 2024</p>
+                    <p>31&deg / 25&deg</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+
+                <div class="classF">
+                    <p class="date">Mon Aug 04 2024</p>
+                    <p>31&deg / 25&deg</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+
+                <div class="classF">
+                    <p class="date">Mon Aug 04 2024</p>
+                    <p>31&deg / 25&deg</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+
+                <div class="classF">
+                    <p class="date">Mon Aug 04 2024</p>
+                    <p>31&deg / 25&deg</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+
+                <div class="classF">
+                    <p class="date">Mon Aug 04 2024</p>
+                    <p>31&deg / 25&deg</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+
+                <div class="classF">
+                    <p class="date">Mon Aug 04 2024</p>
+                    <p>31&deg / 25&deg</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+
+                <div class="classF">
+                    <p class="date">Mon Aug 04 2024</p>
+                    <p>31&deg / 25&deg</p>
+                    <p class="desc">Overcast Clouds</p>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="about"   id="about-section">
+            <h2>About app</h2>
+            <p><strong>Real-Time Weather Updates:</strong>This app will stay informed
+            with up-to-the-minute temperature and forecasts.</p>
+            <p><strong>Location-Based Services:</strong>Get weather details for your 
+                current location or search for cities around the world.</p>
+            <p><strong>Interactive UI:</strong>Simple and clean inituitive interface 
+                to make your weather tracking hassel free.</p>  
+            <p><strong>Daily & Hourly Forecasts:</strong>Plan ahead with detailed
+            weather predictions for the day and week.</p> 
+            <p><strong>Weekly Forecast:</strong>Helps you to plan suitable trips for a week.</p>     
+        </section>
+
+
+        <footer id="footer-section">
+            <div class="footer-content">
+                <div class="social-media">
+                    <a href="https://github.com" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Copyright Information</a>
+                </div>
+                <button id="back-to-top">Back to Top</button>
+            </div>
+        </footer>
+
+
+        <script src="java_script/script.js"></script>
+    </body>
+</html>
