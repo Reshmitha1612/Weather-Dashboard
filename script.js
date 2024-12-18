@@ -1,5 +1,5 @@
 const apiKey = '821c86bd23ea4dac8a4135443241712';
-const apiBaseUrl = 'http://api.weatherapi.com/v1/forecast.json';
+const apiBaseUrl = 'https://api.weatherapi.com/v1/forecast.json';
 
 // Function to dynamically change the background color based on the time of the day
 const updateBackground = (hour) => {
