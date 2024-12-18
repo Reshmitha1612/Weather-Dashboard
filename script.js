@@ -35,7 +35,7 @@ const displayWeatherData = (data) => {
     const city = `${data.location.name}, ${data.location.country}`;
     const temperature = `${Math.round(data.current.temp_c)}°C`;
     const clouds = data.current.condition.text;
-    const iconUrl = `http:${data.current.condition.icon}`;
+    const iconUrl = `https:${data.current.condition.icon}`;
 
     cityElement.innerText = city;
     temperatureElement.innerText = temperature;
